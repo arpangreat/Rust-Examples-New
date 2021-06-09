@@ -1,0 +1,1 @@
+/home/arpangreat/Rust-Examples-New/data_types_demo/target/debug/data_types_demo: /home/arpangreat/Rust-Examples-New/data_types_demo/src/arrays.rs /home/arpangreat/Rust-Examples-New/data_types_demo/src/main.rs /home/arpangreat/Rust-Examples-New/data_types_demo/src/tuples.rs
