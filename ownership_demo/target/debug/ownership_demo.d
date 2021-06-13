@@ -1,0 +1,1 @@
+/home/arpangreat/Rust-Examples-New/ownership_demo/target/debug/ownership_demo: /home/arpangreat/Rust-Examples-New/ownership_demo/src/main.rs /home/arpangreat/Rust-Examples-New/ownership_demo/src/slice_typing.rs
