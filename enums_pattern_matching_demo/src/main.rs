@@ -1,3 +1,4 @@
+mod concise_control_flow;
 // enum IppAddrKind {
 //     V4,
 //     V6,
@@ -8,34 +9,34 @@
 //     address: String,
 // }
 
-#[derive(Debug)]
-enum UsState {
-    Alabama,
-    Alaska,
-    California,
-}
-
-enum Coin {
-    Penny,
-    Nickel,
-    Dime,
-    Quarter(UsState),
-}
-
-fn value_in_cents(coin: Coin) -> u8 {
-    match coin {
-        Coin::Dime => {
-            println!("Lucky Penny !!");
-            1
-        }
-        Coin::Nickel => 5,
-        Coin::Penny => 10,
-        Coin::Quarter(state) => {
-            println!("The State is {:?}", state);
-            25
-        }
-    }
-}
+/* #[derive(Debug)]
+ * enum UsState {
+ *     Alabama,
+ *     Alaska,
+ *     California,
+ * }
+ *
+ * enum Coin {
+ *     Penny,
+ *     Nickel,
+ *     Dime,
+ *     Quarter(UsState),
+ * }
+ *
+ * fn value_in_cents(coin: Coin) -> u8 {
+ *     match coin {
+ *         Coin::Dime => {
+ *             println!("Lucky Penny !!");
+ *             1
+ *         }
+ *         Coin::Nickel => 5,
+ *         Coin::Penny => 10,
+ *         Coin::Quarter(state) => {
+ *             println!("The State is {:?}", state);
+ *             25
+ *         }
+ *     }
+ * } */
 
 fn main() {
     // let four = IppAddrKind::V4;
@@ -47,4 +48,5 @@ fn main() {
     // };
 
     // println!("{}, {}, {}", four, six, home);
+    concise_control_flow::run();
 }
