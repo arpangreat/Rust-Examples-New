@@ -34,10 +34,12 @@ mod front_of_house {
 }
 
 use crate::front_of_house::hosting;
+use crate::front_of_house::hosting::add_to_waitlist as atw;
 
 pub fn eat_at_restaurant() {
     hosting::add_to_waitlist();
     hosting::seat_at_table();
+    atw();
 
     // Absoulute Path
     crate::front_of_house::hosting::add_to_waitlist();
