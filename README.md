@@ -48,3 +48,5 @@ First, let’s take a look at the ownership rules. Keep these rules in mind as w
 - Move includes an anonymous struct inside it.
 - Write includes a single String.
 - ChangeColor includes three i32 values.
+
+# Last Time I was on The beginning of The HashMap on common_collection/
