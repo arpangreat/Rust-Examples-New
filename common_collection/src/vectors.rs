@@ -50,6 +50,6 @@ pub fn vectors() {
 
     // BUG: Fix this !!
     /* for i in &row {
-     *     println!("The Values of row: {}", i);
+     *     println!("The Values of row: {:?}", i);
      * } */
 }
