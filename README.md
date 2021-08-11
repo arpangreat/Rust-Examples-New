@@ -49,4 +49,4 @@ First, let’s take a look at the ownership rules. Keep these rules in mind as w
 - Write includes a single String.
 - ChangeColor includes three i32 values.
 
-# Last Time I was on The beginning of Chapter(10.1): Generic Types, Traits, Lifetimes 
+# Last Time I was on The beginning of Chapter(10.2): Traits
