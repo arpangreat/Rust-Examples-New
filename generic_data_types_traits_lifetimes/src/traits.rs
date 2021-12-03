@@ -1,5 +1,3 @@
-pub fn run() {}
-
 pub trait Summary {
     fn summarize(&self) -> String;
 }

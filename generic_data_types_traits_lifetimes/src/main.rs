@@ -1,3 +1,5 @@
+mod traits;
+
 fn largest(list: &[i32]) -> i32 {
     let mut largest = list[0];
 
