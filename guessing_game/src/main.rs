@@ -1,13 +1,13 @@
-pub use rand::Rng;
+use rand::Rng;
 use std::cmp::Ordering;
 use std::io;
 
 pub(crate) fn main() {
     println!("Guess the number!");
 
-    let secret_number = rand::thread_rng().gen_range(1..101);
+    let secret_number: u32 = rand::thread_rng().gen_range(1..101);
 
-    println!("Secret Number is: {}", secret_number);
+    // println!("Secret Number is: {}", secret_number);
 
     loop {
         println!("Please input your guess: ");
