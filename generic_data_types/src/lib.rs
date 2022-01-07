@@ -41,3 +41,21 @@ impl Summary for Tweet {
 pub fn notify<T: Summary>(item: &T) {
     println!("Breaking news! {}", item.summarize());
 }
+
+pub fn return_summarizable() -> impl Summary {
+    if switch {
+        NewsArticle {
+            headline: String::from("Penguins win the stanely Cup Championship!"),
+            localtion: String::from("Rampurhat, WB, India"),
+            author: String::from("arpangreat"),
+            content: String::from("Swastik Acharyya, is the best"),
+        }
+    } else {
+        Tweet {
+            username: String::from("horse_ebooks"),
+            content: String::from("of course, as you probably already know, people"),
+            reply: false,
+            retweet: false,
+        }
+    }
+}
