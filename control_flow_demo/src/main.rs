@@ -35,4 +35,5 @@ fn main() {
     for element in a.iter() {
         println!("The value of a is: {}", element);
     }
+    --
 }
