@@ -1,5 +1,5 @@
 fn main() {
-    println!("Hello, world!");
+    println!(r#"Hello, world!"#);
 
     // Using if in a let statement
     let condition = true;
@@ -35,5 +35,4 @@ fn main() {
     for element in a.iter() {
         println!("The value of a is: {}", element);
     }
-    --
 }
